@@ -1,0 +1,57 @@
+
+        body
+        {
+           margin: 0;
+           padding: 0;
+           background-color: lightgray; 
+        }
+        .navbar
+        {
+            width: 100%;
+            height: auto;
+            background-color:black;
+            margin: 0;
+            margin-top:0;
+        }
+        .navbar ul
+        {
+           margin-top: 0; 
+        }
+        .navbar ul li
+        {
+            display: inline-block;
+            padding: 30px 30px;
+            margin: 0;
+            margin-top: 0;
+        }
+        .navbar a
+        {
+           color: white;
+           font-size: 20px;  
+        }
+        .content
+    {
+        width: 50px;
+        height:auto;
+        margin:auto ;
+        padding: 40px;
+        margin-top: 10%;       
+
+    }
+    .contact
+    {
+        width: 101%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+    .contact-img
+    {
+        width: 30%;
+        height: auto;
+       }
+    .contact-form
+    {
+        width: 30%;
+        height: auto; 
+    }
