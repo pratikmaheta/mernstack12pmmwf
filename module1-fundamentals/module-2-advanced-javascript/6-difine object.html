@@ -1,0 +1,27 @@
+<script>
+  //  a)object as litrals
+
+    //var employee={id:1,name:"pratik",age:22};
+    //console.log(employee);
+    //console.log(employee.name);
+    //console.log(employee.id + "/n" + employee.name + "/n" + employee.age);
+
+     //  b)object as instance
+
+    //var employee=new object({id:1,name:"pratik",age:22});
+    //console.log(employee);
+    
+     //  b)object as constuctor
+    //function display(id,name salary,age)
+    {
+        this.id=id,
+        this.name=name;
+        this.age=age;
+        this.salary=salary
+    }
+    var employee=new display(1,"pratik",22,69000);
+    //console.log(employee);
+    console.log(employee.id + "/n" + employee.name + "/n" + employee.age + "/n" + employee.salary);
+    console.log(typeof(employee));
+
+</script>
