@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:lightskyblue;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.navbar ul{
+    margin-top: 0;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 20px 20px;
+
+}
+.navbar a{
+    color: red;
+    font-size: 25px;
+    text-decoration: none;
+    list-style-type:none;
+}
+.contect{
+    width: 50%;
+    height: auto;
+    margin: 20px;
+    padding-left: 20px;
+    margin-top: 5%;
+    }
+.contect-us{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.contect-img{
+    width: 50%;
+    height: auto;
+    padding: 5px;
+    margin-top: 0;
+        
+}
+.contect-form{
+    width: 50%;
+    height: auto;
+    margin-top: 5px;
+
+
+}
+.contect-form input,textarea{
+    width: 300px;
+    height: auto;
+    padding: 3px;
+
+}
+.contect-form input[type="submit"]
+{
+    width: 300px;
+    height: auto;
+    background-color: black;
+    color: red;
+    border: solid yellowgreen 2px ;
+    padding: 12px;
+    
+} 
+.contect-form input[type="reset"]
+{
+    width: 300px;
+    height: auto;
+    background-color: black;
+    color:yellowgreen;
+    border:solid red 2px;
+    padding: 12px;
+    
+} 
+
